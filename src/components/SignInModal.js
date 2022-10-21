@@ -32,7 +32,7 @@ export default function SignUpModal() {
       toggleModals("close");
       navigate("/private/private-home");
     } catch {
-      setValidation("Wopsy, email and/or password incorrect")
+      setValidation("Wopsy, email and/or password incorrect");
     }
   };
 
@@ -56,7 +56,7 @@ export default function SignUpModal() {
             <div className="modal-dialog">
               <div className="modal-content">
                 <div className="modal-header">
-                  <h5 className="modal-title">Sign Up</h5>
+                  <h5 className="modal-title">Connexion</h5>
                   <button onClick={closeModal} className="btn-close"></button>
                 </div>
 
@@ -68,7 +68,7 @@ export default function SignUpModal() {
                   >
                     <div className="mb-3">
                       <label htmlFor="signInEmail" className="form-label">
-                        Email adress
+                        Email
                       </label>
                       <input
                         ref={addInputs}
@@ -82,7 +82,7 @@ export default function SignUpModal() {
 
                     <div className="mb-3">
                       <label htmlFor="signInPwd" className="form-label">
-                        Password
+                        Mot de passe
                       </label>
                       <input
                         ref={addInputs}
@@ -95,9 +95,8 @@ export default function SignUpModal() {
                       <p className="text-danger mt-1">{validation}</p>
                     </div>
 
-                    <button className="btn btn-primary">Submit</button>
+                    <button className="btn btn-primary">Se connecter</button>
                   </form>
-
                 </div>
               </div>
             </div>
