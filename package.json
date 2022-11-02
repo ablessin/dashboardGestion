@@ -3,12 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.10.11",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "@faker-js/faker": "^7.6.0",
+    "chart.js": "^3.9.1",
     "firebase": "^9.6.0",
     "leaflet": "^1.9.2",
     "react": "^17.0.2",
+    "react-chartjs-2": "^4.3.1",
     "react-dom": "^17.0.2",
     "react-leaflet": "^3.2.5",
     "react-router-dom": "^6.0.2",
@@ -35,5 +41,8 @@
     ">0.2%",
     "not dead",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  }
 }

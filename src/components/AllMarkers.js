@@ -37,6 +37,9 @@ export default function AllMarkers({ setOpenModal, markers, setLoactions }) {
                       >
                         Supprimer
                       </button>
+                      <button className="btn btn-primary mb-3 ms-3">
+                        Modifier
+                      </button>
                       <p>Nom :{marker.name}</p>
                       <p>Latitude : {marker.pos[0]}</p>
                       <p>Longitude : {marker.pos[1]}</p>
